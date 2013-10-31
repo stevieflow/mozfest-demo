@@ -28,7 +28,7 @@
     
 
   <script type="text/html" id="header">
-    <h1>Here are <span class="brite">{{totalofUs}}</span> Football Grounds</h1>
+    <h1>Here are <span class="brite">{{totalofUs}}</span> potential growing spaces!</h1>
   </script>
     
   <script type="text/javascript">
@@ -44,7 +44,7 @@
       
       var map = Sheetsee.loadMap("map")
       Sheetsee.addTileLayer(map, 'examples.map-9ijuk24y')
-      var markerLayer = Sheetsee.addMarkerLayer(geoJSON, map, 13)
+      var markerLayer = Sheetsee.addMarkerLayer(geoJSON, map, 16)
       addPopups(map, markerLayer)
       
       function addPopups(map, markerLayer) {
